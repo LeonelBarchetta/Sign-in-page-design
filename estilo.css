@@ -14,3 +14,16 @@ img{
     border-radius: 5px;
     filter: contrast(1.8);
 }
+
+.imagen{
+    margin: 60px 58px 0px 85px;
+}
+
+.padre{
+    width: 325px;
+    height: 490px;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+    margin: 60px 85px 0px 0px;
+    padding: 10px 25px 10px 25px;
+}
