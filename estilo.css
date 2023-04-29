@@ -2,3 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+section{
+    display: flex;
+    
+}
+
+
+img{
+    height: 498px;
+    width: 420px;
+    border-radius: 5px;
+    filter: contrast(1.8);
+}
