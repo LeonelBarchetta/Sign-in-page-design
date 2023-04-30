@@ -80,7 +80,27 @@ img{
     font-size: 13px;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
     font-weight: bolder;
+    color: #727576;
+    margin-left: 95px;
     
-    
+}
+
+.continue::after,.continue::before{
+    content: "" ;
+    position: absolute;
+    width: 85px;
+    height: 2px;
+    background-color: #DBE1E2;
+    top: 0.6em;
+
+}
+.continue::before{
+    left: -94px;
+}
+
+.continue::after{
+    right: -94px;
 }
