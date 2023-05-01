@@ -70,11 +70,18 @@ h1{
     border-radius: 5px;
     
 }
-img{
+.logo{
     background-color: white;
-    width: 24px;
+    width: 45px;
     height: 24px;
+    margin-top: 3px;
 
+}
+
+.none{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 .continue{
     font-size: 13px;
@@ -131,7 +138,8 @@ img{
 }
 
 .Mobile{
-    
+    color: black;
+    text-decoration: none;
     font-weight: bold;
     font-size: 13px;
 }
@@ -159,6 +167,10 @@ img{
     color: #727576;
     
 }
+.divboton{
+    display: flex;
+    justify-content: center;
+}
 
 .boton{
     height: 39px;
@@ -166,8 +178,28 @@ img{
     background-color: #FF731C;
     border: 2px solid #FF731C;
     border-radius: 5px;
-    margin: 20px 60px 5px 60px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.last{
+    text-align: center;
+}
+
+.account{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #727576;
 }
 
 
+
+.Register{
+    color: #FF731C;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 3px;
+   
+}
 
