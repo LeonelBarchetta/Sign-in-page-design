@@ -42,33 +42,19 @@ h1{
     margin-bottom: 20px;
 }
 
-.google{
-    width: 62px;
-    height: 42px;
-    background-color: white;
-    border: 2px solid #DFDFDF;
-    border-radius: 5px;
-    
-    
+.hijo{
+    display: flex;
+    justify-content: space-between;
 }
-.facebook{
+
+
+
+.icono{
     width: 62px;
     height: 42px;
     background-color: white;
     border: 2px solid #DFDFDF;
     border-radius: 5px;
-    margin-left: 48px;
-    margin-right: 48px;
-    
-    
-}
-.mac{
-    width: 62px;
-    height: 42px;
-    background-color: white;
-    border: 2px solid #DFDFDF;
-    border-radius: 5px;
-    
 }
 .logo{
     background-color: white;
@@ -184,6 +170,7 @@ h1{
 
 .last{
     text-align: center;
+
 }
 
 .account{
@@ -197,9 +184,8 @@ h1{
 
 .Register{
     color: #FF731C;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 13px;
-    padding-bottom: 3px;
-   
+    
 }
 
