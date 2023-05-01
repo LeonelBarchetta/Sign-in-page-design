@@ -144,6 +144,9 @@ h1{
     border: 2px solid #B3B1AF;
     border-radius: 5px;
     padding-left: 10px;
+    font-weight: bold;
+    
+   
 }
 
 .forgoten{
@@ -180,13 +183,17 @@ h1{
     color: #727576;
 }
 
+.last{
+    text-align: center;
+}
 
 
 .Register{
     color: #FF731C;
     font-weight: bolder;
     font-size: 13px;
-    
+    text-decoration: none;
+    border-bottom: 1px solid #FF731C;
 }
 
 .icono{
@@ -219,4 +226,10 @@ h1{
 }
 .boton:hover{
     transform: scale(1.2);
+}
+
+.ojo{
+    position: absolute;
+    right: 120px;
+    bottom: 239px;
 }
