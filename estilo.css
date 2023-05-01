@@ -114,10 +114,11 @@ img{
     margin: 0px 40px 0px 34px;
 }
 
-.email{
+.letra{
     color: white;
     font-weight: bold;
     font-size: 13px;
+    text-decoration: none;
     
 }
 
@@ -150,4 +151,23 @@ img{
     border-radius: 5px;
     padding-left: 10px;
 }
+
+.forgoten{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #727576;
+    
+}
+
+.boton{
+    height: 39px;
+    width: 170px;
+    background-color: #FF731C;
+    border: 2px solid #FF731C;
+    border-radius: 5px;
+    margin: 20px 60px 5px 60px;
+}
+
+
 
