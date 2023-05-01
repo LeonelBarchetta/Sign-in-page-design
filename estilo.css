@@ -11,7 +11,7 @@ section{
 
 
 .regalo{
-    height: 498px;
+    height: 532px;
     width: 420px;
     border-radius: 10px;
     filter: contrast(1.2);
@@ -23,7 +23,7 @@ section{
 
 .padre{
     width: 325px;
-    height: 465px;
+    height: 498px;
     border: 2px solid #DFDFDF;
     border-radius: 10px;
     margin: 60px 85px 0px 0px;
@@ -135,6 +135,19 @@ img{
     font-size: 13px;
 }
 
-.address{
+.form{
+    color: black;
+    margin-top: 19px;
+    margin-bottom: 5px;
     font-size: 13px;
+    font-weight: bold;
 }
+
+.input{
+    width: 285px;
+    height: 41px;
+    border: 2px solid #B3B1AF;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
