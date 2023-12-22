@@ -1,5 +1,286 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-/* buscar fuente */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+main{
+    margin-top: 7rem;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen img{
+    height:47rem;
+    width: 45rem;
+    border-radius: 1rem;
+    filter: sepia(1.6);
+    filter: saturate(1.8);
+}
+
+h1,a,p,input,label{
+    font-family: 'Poppins', sans-serif;
+}
+
+a,p,input{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+
+.padre{
+    height:47rem;
+    width: 35rem;
+    border: 0.2rem solid #d9d9d9;
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.padre h1{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.padre .hijo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.hijo .icono{
+    width: 5rem;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    border: 0.2rem solid #d9d9d9;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+}
+
+
+.icono .logo{
+    height: 2.5rem;
+}
+
+.hijo .icono:hover{
+    background-color: #d9d9d9;
+    transform: scale(1.1);
+}
+
+.continue{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.continue p{
+    font-weight: bolder;
+    color: black;
+}
+
+.continue hr{
+    height: 0.05rem;
+    background-color: rgb(31, 31, 31);
+    width: 8rem;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.naranja{
+    height: 3rem;
+    width: 7.5rem;
+    background-color: #FF731C;
+    border: 2px solid #FF731C;
+    border-radius: 0.5rem;
+    padding: 0;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+}
+
+.naranja:hover{
+    background-color: #ff924f;
+    border: 2px solid #ff924f;
+    transform: scale(1.05);
+}
+
+.naranja a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.blanco{
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: white;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+}
+
+.blanco:hover{
+    background-color: #d4d4d4;
+    border: 2px solid #d4d4d4;
+    transform: scale(1.05);
+}
+
+.blanco a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+form label{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+form .input{
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border: 0.2rem solid #b1b1b1;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    height: 3rem;
+    box-sizing: border-box;
+}
+
+.container{
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border: 0.2rem solid #b1b1b1;
+    border-radius: 0.5rem;
+    height: 3rem;
+    align-items: center;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+.container .password{
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.ojo{
+    height: 2rem;
+    cursor: pointer;
+}
+
+form .forgoten{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    width: 100%;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+}
+
+form .forgoten:hover{
+    color: #b1b1b1;
+}
+
+form div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+form button{
+    height: 3.5rem;
+    width: 65%;
+    background-color: #FF731C;
+    border: 2px solid #FF731C;
+    border-radius: 0.5rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+
+}
+form button a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+form button:hover{
+    background-color: #ff924f;
+    border: 2px solid #ff924f;
+    transform: scale(1.05);
+}
+
+.last{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.last .account{
+    color: black;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+
+}
+.last .account:hover{
+    color: #b1b1b1;
+}
+.last .Register{
+    color: #FF731C;
+    text-decoration: underline;
+    transition: background-color 0.2s ease, color 0.2s ease,  transform 0.2s ease;
+
+}
+.last .Register:hover{
+    color: #ff924f;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -232,4 +513,4 @@ h1{
     position: absolute;
     right: 120px;
     bottom: 239px;
-}
+} */
