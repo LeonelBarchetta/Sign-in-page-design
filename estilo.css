@@ -165,7 +165,7 @@ form label{
 }
 
 form .input{
-    color: #d9d9d9;
+    color: black;
     font-size: 1.2rem;
     display: block;
     width: 100%;
@@ -398,4 +398,125 @@ form button a{
 
 
 
+}
+
+@media (max-width:720px){
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .imagen {
+        display: none;
+    }
+    
+    a,p,input,label{
+        font-size: 1.8rem;
+    }
+    
+    .padre{
+        height:62rem;
+        width: 80%;
+        padding: 2rem;
+    }
+    
+    .padre h1{
+        margin-bottom: 1rem;
+        margin-top: 0;
+        font-size: 3.5rem;
+    }
+    
+    .padre .hijo{
+        margin-bottom: 2rem;
+    }
+    
+    .hijo .icono{
+        width: 6.5rem;
+        height: 5rem;
+        padding: 0.2rem;
+    }
+    
+    
+    .icono .logo{
+        height: 4rem;
+    }
+    
+    
+    .continue{
+        margin-bottom: 2rem;
+    }
+    
+    .continue hr{
+        height: 0.05rem;
+        width: 6rem;
+    }
+    
+    
+    .naranja{
+        height: 4.5rem;
+        width: 7rem;
+    }
+    
+    
+    .blanco{
+        height: 4.5rem;
+        width: 14.5rem;
+    }
+
+    form{
+        margin-top: 2rem;
+    }
+    
+    form label{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    
+    
+    form .input{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        height: 4rem;
+    }
+    
+    
+    .container{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        height: 4rem;
+    }
+    
+    .ojo{
+        height: 2rem;
+    }
+    
+    form .forgoten{
+        font-size: 1.8rem;
+    }
+    
+    form div{
+        margin-bottom: 0;
+    }
+    
+    form button{
+        height: 4.5rem;
+        width: 10rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    form button a{
+        font-size: 1.8rem;
+    }
+    
+    .last{
+        margin-bottom: 1rem;
+    }
+    
 }
